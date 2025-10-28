@@ -1,0 +1,67 @@
+@reference "../index.css";
+
+/* Component-level helpers for accessible focus and subtle shadows */
+.focus-ring { @apply outline-none; }
+.focus-ring:focus-visible { @apply ring-2 ring-accent/40 ring-offset-2 ring-offset-surface; }
+
+/*
+  Responsive Header (CSS-only)
+  - Uses a hidden checkbox (#nav-toggle) as the state source. The checkbox is marked as `peer`.
+  - The visible toggle control is a <label for="nav-toggle"> styled as a button and hidden on md+ via `md:hidden`.
+  - The mobile menu container is initially hidden (`hidden`) and only displays below md (`md:hidden`).
+  - Visibility toggles via `peer-checked:block` and animates with `transition-[max-height,opacity]`.
+  - Breakpoints: md = 768px, lg = 1024px (see tailwind.config.js `screens`).
+  - Desktop navigation uses `hidden md:flex` so it appears only at md and above.
+  - Pseudo-classes used on the label: `hover` and `active` provide smooth interaction feedback.
+*/
+
+.card {
+  @apply rounded-lg bg-surface border border-border shadow-soft;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md border border-border bg-white text-textPrimary shadow-sm transition;
+}
+.btn-primary {
+  @apply border-accent bg-accent text-white hover:bg-blue-600;
+}
+.btn-ghost {
+  @apply bg-white hover:bg-gray-50;
+}
+
+.input {
+  @apply w-full px-3.5 py-3 rounded-md border border-border bg-white text-textPrimary outline-none transition;
+}
+.input:focus {
+  @apply border-accent ring-2 ring-accent/20;
+}
+
+/*
+  Flag select styling
+  - Ensures emoji flags render fully without clipping across major browsers.
+  - Compact dimensions with centered content; responsive min-widths.
+  - Uses appearance reset for consistent rendering (Safari/Firefox/Chromium/Edge).
+*/
+.select-flag {
+  @apply h-9 min-w-[56px] sm:min-w-[64px] md:min-w-[72px] px-2 text-center text-xl rounded-md border border-border bg-white text-textPrimary;
+  line-height: 1; /* prevent vertical clipping of emoji glyphs */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.select-flag:focus {
+  @apply border-accent ring-2 ring-accent/20 outline-none;
+}
+
+/* Skip to content link for keyboard users */
+.skip-link {
+  position: absolute;
+  top: -999px;
+  left: -999px;
+}
+.skip-link:focus {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  @apply bg-white text-textPrimary px-3 py-2 rounded-md border border-border shadow-soft ring-2 ring-accent/40 ring-offset-2 ring-offset-surface;
+}
