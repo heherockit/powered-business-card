@@ -1,6 +1,6 @@
 export interface TemplateMeta {
-  id: string;
   name: string;
-  accent: string;
-  description?: string;
+  description: string;
+  imagePreview: string;
+  isPremium: boolean;
 }

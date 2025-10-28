@@ -5,10 +5,11 @@
   "type": "commonjs",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && cp -R src/data dist/",
     "start": "node dist/index.js",
     "test": "tsc -p tsconfig.test.json && mocha \"dist-test/test/**/*.test.js\"",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.{ts,js,json,md}\" \"test/**/*.{ts,js,json,md}\""
   },
   "dependencies": {
     "dotenv": "^16.4.5",

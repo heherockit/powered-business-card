@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Premium Template 01",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "elegant", "professional"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc1.webp",
+    "frontTemplate": "layout-01-front",
+    "backTemplate": "layout-01-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 24, "y": 24}, "size": {"width": 240, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 24, "y": 60}, "size": {"width": 240, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 24, "y": 24}, "size": {"width": 240, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 02",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "minimal"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc2.png",
+    "frontTemplate": "layout-02-front",
+    "backTemplate": "layout-02-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 26, "y": 24}, "size": {"width": 238, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 26, "y": 60}, "size": {"width": 238, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 26, "y": 24}, "size": {"width": 238, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 03",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "classic"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc3.jpg",
+    "frontTemplate": "layout-03-front",
+    "backTemplate": "layout-03-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 28, "y": 24}, "size": {"width": 236, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 28, "y": 60}, "size": {"width": 236, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 28, "y": 24}, "size": {"width": 236, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 04",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "modern"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc4.jpg",
+    "frontTemplate": "layout-04-front",
+    "backTemplate": "layout-04-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 30, "y": 24}, "size": {"width": 234, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 30, "y": 60}, "size": {"width": 234, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 30, "y": 24}, "size": {"width": 234, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 05",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "serif"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc5.jpg",
+    "frontTemplate": "layout-05-front",
+    "backTemplate": "layout-05-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 32, "y": 24}, "size": {"width": 232, "height": 28}, "fontType": "Georgia", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 32, "y": 60}, "size": {"width": 232, "height": 22}, "fontType": "Georgia", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 32, "y": 24}, "size": {"width": 232, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 06",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "sans"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc6.jpg",
+    "frontTemplate": "layout-06-front",
+    "backTemplate": "layout-06-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 34, "y": 24}, "size": {"width": 230, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 34, "y": 60}, "size": {"width": 230, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 34, "y": 24}, "size": {"width": 230, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 07",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "bold"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc7.jpg",
+    "frontTemplate": "layout-07-front",
+    "backTemplate": "layout-07-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 36, "y": 24}, "size": {"width": 228, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 36, "y": 60}, "size": {"width": 228, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 36, "y": 24}, "size": {"width": 228, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 08",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "subtle"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc8.jpg",
+    "frontTemplate": "layout-08-front",
+    "backTemplate": "layout-08-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 38, "y": 24}, "size": {"width": 226, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 38, "y": 60}, "size": {"width": 226, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 38, "y": 24}, "size": {"width": 226, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 09",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "accent"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc9.jpg",
+    "frontTemplate": "layout-09-front",
+    "backTemplate": "layout-09-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 40, "y": 24}, "size": {"width": 224, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 40, "y": 60}, "size": {"width": 224, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 40, "y": 24}, "size": {"width": 224, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 10",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium", "contrast"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc10.jpg",
+    "frontTemplate": "layout-10-front",
+    "backTemplate": "layout-10-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 42, "y": 24}, "size": {"width": 222, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 42, "y": 60}, "size": {"width": 222, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 42, "y": 24}, "size": {"width": 222, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 11",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc11.jpg",
+    "frontTemplate": "layout-11-front",
+    "backTemplate": "layout-11-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 44, "y": 24}, "size": {"width": 220, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 44, "y": 60}, "size": {"width": 220, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 44, "y": 24}, "size": {"width": 220, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 12",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc12.jpg",
+    "frontTemplate": "layout-12-front",
+    "backTemplate": "layout-12-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 46, "y": 24}, "size": {"width": 218, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 46, "y": 60}, "size": {"width": 218, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 46, "y": 24}, "size": {"width": 218, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 13",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc1.webp",
+    "frontTemplate": "layout-13-front",
+    "backTemplate": "layout-13-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 48, "y": 24}, "size": {"width": 216, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 48, "y": 60}, "size": {"width": 216, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 48, "y": 24}, "size": {"width": 216, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 14",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc2.png",
+    "frontTemplate": "layout-14-front",
+    "backTemplate": "layout-14-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 50, "y": 24}, "size": {"width": 214, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 50, "y": 60}, "size": {"width": 214, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 50, "y": 24}, "size": {"width": 214, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Premium Template 15",
+    "description": "Elegant premium layout with refined typography",
+    "tags": ["premium"],
+    "isPremium": true,
+    "imagePreview": "/bc-previews/bc3.jpg",
+    "frontTemplate": "layout-15-front",
+    "backTemplate": "layout-15-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 52, "y": 24}, "size": {"width": 212, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 52, "y": 60}, "size": {"width": 212, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "email", "isOnFront": false, "topLeft": {"x": 52, "y": 24}, "size": {"width": 212, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 16",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "clean"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc4.jpg",
+    "frontTemplate": "layout-16-front",
+    "backTemplate": "layout-16-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 24, "y": 26}, "size": {"width": 240, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 24, "y": 62}, "size": {"width": 240, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 24, "y": 26}, "size": {"width": 240, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 17",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "minimal"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc5.jpg",
+    "frontTemplate": "layout-17-front",
+    "backTemplate": "layout-17-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 26, "y": 26}, "size": {"width": 238, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 26, "y": 62}, "size": {"width": 238, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 26, "y": 26}, "size": {"width": 238, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 18",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "classic"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc6.jpg",
+    "frontTemplate": "layout-18-front",
+    "backTemplate": "layout-18-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 28, "y": 26}, "size": {"width": 236, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 28, "y": 62}, "size": {"width": 236, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 28, "y": 26}, "size": {"width": 236, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 19",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "modern"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc7.jpg",
+    "frontTemplate": "layout-19-front",
+    "backTemplate": "layout-19-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 30, "y": 26}, "size": {"width": 234, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 30, "y": 62}, "size": {"width": 234, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 30, "y": 26}, "size": {"width": 234, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 20",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "serif"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc8.jpg",
+    "frontTemplate": "layout-20-front",
+    "backTemplate": "layout-20-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 32, "y": 26}, "size": {"width": 232, "height": 28}, "fontType": "Georgia", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 32, "y": 62}, "size": {"width": 232, "height": 22}, "fontType": "Georgia", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 32, "y": 26}, "size": {"width": 232, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 21",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "sans"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc9.jpg",
+    "frontTemplate": "layout-21-front",
+    "backTemplate": "layout-21-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 34, "y": 26}, "size": {"width": 230, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 34, "y": 62}, "size": {"width": 230, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 34, "y": 26}, "size": {"width": 230, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 22",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "bold"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc10.jpg",
+    "frontTemplate": "layout-22-front",
+    "backTemplate": "layout-22-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 36, "y": 26}, "size": {"width": 228, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 36, "y": 62}, "size": {"width": 228, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 36, "y": 26}, "size": {"width": 228, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 23",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "subtle"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc11.jpg",
+    "frontTemplate": "layout-23-front",
+    "backTemplate": "layout-23-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 38, "y": 26}, "size": {"width": 226, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 38, "y": 62}, "size": {"width": 226, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 38, "y": 26}, "size": {"width": 226, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 24",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "accent"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc12.jpg",
+    "frontTemplate": "layout-24-front",
+    "backTemplate": "layout-24-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 40, "y": 26}, "size": {"width": 224, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 40, "y": 62}, "size": {"width": 224, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 40, "y": 26}, "size": {"width": 224, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 25",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard", "contrast"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc1.webp",
+    "frontTemplate": "layout-25-front",
+    "backTemplate": "layout-25-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 42, "y": 26}, "size": {"width": 222, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 42, "y": 62}, "size": {"width": 222, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 42, "y": 26}, "size": {"width": 222, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 26",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc2.png",
+    "frontTemplate": "layout-26-front",
+    "backTemplate": "layout-26-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 44, "y": 26}, "size": {"width": 220, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 44, "y": 62}, "size": {"width": 220, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 44, "y": 26}, "size": {"width": 220, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 27",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc3.jpg",
+    "frontTemplate": "layout-27-front",
+    "backTemplate": "layout-27-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 46, "y": 26}, "size": {"width": 218, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 46, "y": 62}, "size": {"width": 218, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 46, "y": 26}, "size": {"width": 218, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 28",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc4.jpg",
+    "frontTemplate": "layout-28-front",
+    "backTemplate": "layout-28-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 48, "y": 26}, "size": {"width": 216, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 48, "y": 62}, "size": {"width": 216, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 48, "y": 26}, "size": {"width": 216, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 29",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc5.jpg",
+    "frontTemplate": "layout-29-front",
+    "backTemplate": "layout-29-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 50, "y": 26}, "size": {"width": 214, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 50, "y": 62}, "size": {"width": 214, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 50, "y": 26}, "size": {"width": 214, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "name": "Standard Template 30",
+    "description": "Clean standard layout for everyday use",
+    "tags": ["standard"],
+    "isPremium": false,
+    "imagePreview": "/bc-previews/bc6.jpg",
+    "frontTemplate": "layout-30-front",
+    "backTemplate": "layout-30-back",
+    "dataTemplates": [
+      {"dataName": "name", "isOnFront": true, "topLeft": {"x": 52, "y": 26}, "size": {"width": 212, "height": 28}, "fontType": "Inter", "color": "#111827"},
+      {"dataName": "title", "isOnFront": true, "topLeft": {"x": 52, "y": 62}, "size": {"width": 212, "height": 22}, "fontType": "Inter", "color": "#374151"},
+      {"dataName": "phone", "isOnFront": false, "topLeft": {"x": 52, "y": 26}, "size": {"width": 212, "height": 20}, "fontType": "Inter", "color": "#1F2937"}
+    ],
+    "createdDate": "2024-10-01T00:00:00.000Z",
+    "updatedDate": "2024-10-01T00:00:00.000Z"
+  }
+]
