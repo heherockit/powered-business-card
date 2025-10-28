@@ -1,0 +1,15 @@
+{
+  "name": "powered-business-card-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for webapp, server, mobile, and automation tests",
+  "workspaces": [
+    "apps/*",
+    "tests/*"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "build": "echo \"Use workspace-specific build scripts\"",
+    "dev": "echo \"Use workspace-specific dev scripts\""
+  }
+}

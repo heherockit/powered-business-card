@@ -137,3 +137,16 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+.DS_Store
+
+# Monorepo app-specific ignores
+apps/webapp/node_modules
+apps/webapp/.vite
+apps/server/node_modules
+tests/automation-test/node_modules
+
+# Flutter app ignores
+apps/mobile/.dart_tool
+apps/mobile/build
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
