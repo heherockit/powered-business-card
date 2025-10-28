@@ -1,8 +1,12 @@
 @reference "../index.css";
 
 /* Component-level helpers for accessible focus and subtle shadows */
-.focus-ring { @apply outline-none; }
-.focus-ring:focus-visible { @apply ring-2 ring-accent/40 ring-offset-2 ring-offset-surface; }
+.focus-ring {
+  @apply outline-none;
+}
+.focus-ring:focus-visible {
+  @apply ring-2 ring-accent/40 ring-offset-2 ring-offset-surface;
+}
 
 /*
   Responsive Header (CSS-only)

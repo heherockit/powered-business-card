@@ -1,6 +1,12 @@
 import type { TemplateMeta } from '../types';
 
-export function TemplateCard({ template, onSelect }: { template: TemplateMeta; onSelect?: (t: TemplateMeta) => void }) {
+export function TemplateCard({
+  template,
+  onSelect,
+}: {
+  template: TemplateMeta;
+  onSelect?: (t: TemplateMeta) => void;
+}) {
   const accent = template.accent;
   return (
     <button

@@ -1,16 +1,16 @@
-import { useEffect, useRef, useState } from 'react'
-import './App.css'
+import { useEffect, useRef, useState } from 'react';
+import './App.css';
 
 function AutoResizingTextarea() {
-  const [value, setValue] = useState('')
-  const ref = useRef<HTMLTextAreaElement | null>(null)
+  const [value, setValue] = useState('');
+  const ref = useRef<HTMLTextAreaElement | null>(null);
 
   useEffect(() => {
-    const el = ref.current
-    if (!el) return
-    el.style.height = '0px'
-    el.style.height = `${el.scrollHeight}px`
-  }, [value])
+    const el = ref.current;
+    if (!el) return;
+    el.style.height = '0px';
+    el.style.height = `${el.scrollHeight}px`;
+  }, [value]);
 
   return (
     <textarea
@@ -22,7 +22,7 @@ function AutoResizingTextarea() {
       className="input"
       rows={1}
     />
-  )
+  );
 }
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
         <AutoResizingTextarea />
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

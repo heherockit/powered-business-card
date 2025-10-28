@@ -13,7 +13,11 @@ import logo from '../../assets/pbc_logo_cropped.png';
 export function Footer() {
   const year = new Date().getFullYear();
 
-  const columns: Array<{ id: string; title: string; links: Array<{ label: string; href: string }> }> = [
+  const columns: Array<{
+    id: string;
+    title: string;
+    links: Array<{ label: string; href: string }>;
+  }> = [
     {
       id: 'company',
       title: 'Company',
@@ -84,7 +88,10 @@ export function Footer() {
           {/* Columns 2–6: Link groups with semantic nav and labels */}
           {columns.map((col) => (
             <nav key={col.id} aria-labelledby={`footer-${col.id}-label`} className="text-left">
-              <h2 id={`footer-${col.id}-label`} className="m-0 text-sm font-semibold text-textPrimary">
+              <h2
+                id={`footer-${col.id}-label`}
+                className="m-0 text-sm font-semibold text-textPrimary"
+              >
                 {col.title}
               </h2>
               <ul className="mt-3 space-y-2" aria-label={`${col.title} links`}>

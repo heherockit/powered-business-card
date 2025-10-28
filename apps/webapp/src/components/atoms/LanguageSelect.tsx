@@ -14,9 +14,15 @@ export function LanguageSelect() {
         onChange={(e) => i18n.changeLanguage(e.target.value)}
         className="select-flag focus-ring"
       >
-        <option value="en" title="English">🇺🇸</option>
-        <option value="es" title="Español">🇪🇸</option>
-        <option value="zh" title="中文">🇨🇳</option>
+        <option value="en" title="English">
+          🇺🇸
+        </option>
+        <option value="es" title="Español">
+          🇪🇸
+        </option>
+        <option value="zh" title="中文">
+          🇨🇳
+        </option>
       </select>
     </label>
   );

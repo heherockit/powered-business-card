@@ -6,10 +6,14 @@ export function GlobalStyles() {
   return (
     <Global
       styles={css`
-        *, *::before, *::after {
+        *,
+        *::before,
+        *::after {
           box-sizing: border-box;
         }
-        html, body, #root {
+        html,
+        body,
+        #root {
           height: 100%;
         }
         body {
@@ -21,9 +25,17 @@ export function GlobalStyles() {
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
         }
-        a { color: inherit; text-decoration: none; }
-        img { display: block; max-width: 100%; }
-        button { font-family: inherit; }
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+        img {
+          display: block;
+          max-width: 100%;
+        }
+        button {
+          font-family: inherit;
+        }
       `}
     />
   );
