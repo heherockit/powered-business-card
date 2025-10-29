@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.userRoutes = userRoutes;
 const UserRepository_1 = require("../repositories/UserRepository");
-const GetUserCommand_1 = require("../commands/GetUserCommand");
+const GetUserCommand_1 = require("../commands/user/GetUserCommand");
 async function userRoutes(app) {
     const repo = new UserRepository_1.InMemoryUserRepository();
     const getUser = new GetUserCommand_1.GetUserCommand(repo);

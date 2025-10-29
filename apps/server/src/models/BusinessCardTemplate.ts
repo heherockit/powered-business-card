@@ -1,6 +1,7 @@
 import type { DataTemplateConfig } from './DataTemplateConfig';
 
 export interface BusinessCardTemplate {
+  id: string;
   name: string;
   description: string;
   tags: string[];

@@ -1,18 +1,38 @@
 import { useEffect, useRef, useState } from 'react';
 import { TextArea } from '../atoms/Input';
 import { Button } from '../atoms/Button';
+import { generateCard, type GenerateCardResponse } from '../../services/cardService';
+import { TemporaryGeneratingResult } from './TemporaryGeneratingResult';
 
 export function Prompt() {
   const [content, setContent] = useState('Describe the card details, brand, role, and accents...');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [result, setResult] = useState<GenerateCardResponse | null>(null);
+
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const taRef = useRef<HTMLTextAreaElement | null>(null);
 
   // Shared generate handler used by button click and Enter keypress
-  const handleGenerate = () => {
-    // TODO: replace with actual generate logic (e.g., update preview or dispatch action)
-    // For now, we log the current content to demonstrate triggering.
-    // eslint-disable-next-line no-console
-    console.log('Generate triggered with content:', content.trim());
+  const handleGenerate = async () => {
+    const text = content.trim();
+    if (!text) {
+      setError('Please enter a description to generate your card.');
+      setResult(null);
+      return;
+    }
+    setLoading(true);
+    setError(null);
+    try {
+      const data = await generateCard(text);
+      setResult(data);
+    } catch (err: any) {
+      const msg = typeof err?.message === 'string' ? err.message : 'Failed to generate card';
+      setError(msg);
+      setResult(null);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const minHeight = 88; // px
@@ -54,6 +74,13 @@ export function Prompt() {
           placeholder="Describe the information for your business card..."
           className="min-h-[88px] max-h-[240px]"
         />
+        {/* Result component directly below input */}
+        <TemporaryGeneratingResult
+          loading={loading}
+          error={error}
+          card={result?.card ?? null}
+          templates={result?.templates ?? null}
+        />
       </div>
       <div className="flex items-center justify-between gap-2">
         <div className="flex items-center">
@@ -80,7 +107,7 @@ export function Prompt() {
             </svg>
           </Button>
         </div>
-        <Button type="button" aria-label="Generate" onClick={handleGenerate}>
+        <Button type="button" aria-label="Generate" onClick={handleGenerate} disabled={loading}>
           {/* Up arrow icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"

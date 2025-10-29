@@ -19,8 +19,8 @@ describe('Routes', () => {
     assert.equal(res.statusCode, 200);
   });
 
-  it('POST /api/card/generate requires params', async () => {
-    const res = await app.inject({ method: 'POST', url: '/api/card/generate', payload: {} });
+  it('POST /api/card requires params', async () => {
+    const res = await app.inject({ method: 'POST', url: '/api/card', payload: {} });
     assert.equal(res.statusCode, 400);
   });
 });

@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const assert_1 = require("assert");
 const UserRepository_1 = require("../src/repositories/UserRepository");
-const GetUserCommand_1 = require("../src/commands/GetUserCommand");
+const GetUserCommand_1 = require("../src/commands/user/GetUserCommand");
 describe('GetUserCommand', () => {
     it('returns a user when it exists', () => {
         const repo = new UserRepository_1.InMemoryUserRepository();

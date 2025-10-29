@@ -4,6 +4,7 @@ import { GetAllTemplatesCommand } from '../commands/template/GetAllTemplatesComm
 
 export async function templateRoutes(app: FastifyInstance) {
   const repo = new JsonTemplateRepository();
+
   const getAllTemplates = new GetAllTemplatesCommand(repo);
 
   app.get('/templates', async () => ({ templates: getAllTemplates.execute() }));
